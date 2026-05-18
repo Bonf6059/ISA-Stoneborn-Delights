@@ -6,11 +6,10 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Ideas for possible next updates
 
 - Do something with the weapon textures in the folder
-- Add 2 potion active with ISA Medieval enabled called "Artisanal dream" and "Oven's breath"
-    Specs: Artisanal dream (Artok) boosts global work speed +25% and quality of the output +1 (?) lowers hunger -10% and sleepfall rate -15% (texture in WIP)
-    Specs: Oven's breath (TrevinPill) boosts cooking +12% and max comfortable temp +10°C lowers min comfortable temp +7°C and mental break treshold +5%
+- Add 2 potion active with ISA Medieval enabled called "Artisanal dream" and "Oven's breath" accessibili rispettivamente con stoneborn faction expansion e stoneborn cuisine
+    Specs: Artisanal dream (Artok) boosts global work speed +25% and quality of the output +1 (?) lowers hunger -10% and sleepfall rate -15% (Richiede 2 Orichalcum + 5 herbal medicine[da rimpiazzare con fly agaric se ISA Medieval è installata] + 15 psycoid leaves [da rimpiazzare con herbs se ISA Medieval è installata])
+    Specs: Oven's breath (TrevinPill) boosts cooking +12% and max comfortable temp +10°C lowers min comfortable temp +7°C and mental break treshold +5% (Richiede 5 dwarven milk + 5 herbal medicine[da rimpiazzare con fly agaric se ISA Medieval è installata] + 15 psycoid leaves [da rimpiazzare con herbs se ISA Medieval è installata])
 - Recuperare da stoneborn factions expansion: CrystalCrown; FireproofGambeson; forse Goggles e Razorbug
-- 
 
 # Old updates
 
