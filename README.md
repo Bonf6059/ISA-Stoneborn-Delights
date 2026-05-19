@@ -6,7 +6,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Ideas for possible next updates
 
 - Do something with the weapon textures in the folder
-- Specs: Oven's breath (TrevinPill) boosts cooking +12% and max comfortable temp +10°C lowers min comfortable temp +7°C and mental break treshold +5% (Richiede 2 Criopyrinthquartz + 5 dwarven milk + 10 fly agaric + 25 herbs) prodotto al alchemycal lab, ne fa 5 [Manca lo thing def, heddiff ecc, fatto recipe e patch]
+- Specs: Oven's breath (TrevinPill) boosts cooking +12% and max comfortable temp +10°C lowers min comfortable temp +7°C and mental break treshold +5% [Manca lo thing def, heddiff ecc, fatto recipe e patch]
 - Per artok bisogna ricontrollare l'heddiff perchè è sicuramente problematico
 - Recuperare da stoneborn factions expansion: CrystalCrown; FireproofGambeson; forse Goggles e Razorbug
 
