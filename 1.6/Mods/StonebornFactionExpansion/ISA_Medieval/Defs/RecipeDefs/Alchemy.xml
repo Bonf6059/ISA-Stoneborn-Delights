@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- =============== Brew Kettle =============== -->
+	
+<!-- Artok Mush -->
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_ArtokMush</defName>
+		<label>make artok mush</label>
+		<description>Make artok mush.</description>
+		<jobString>Making artok mush.</jobString>
+		<workAmount>470</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DV_Mithrium</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DV_Mithrium</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DV_Mithrium</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_ArtokMush>1</ISA_ArtokMush>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_ArtokMushBulk</defName>
+		<label>make artok mush x5</label>
+		<description>Make artok mush x5.</description>
+		<jobString>Making artok mush x5.</jobString>
+		<workAmount>2350</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DV_Mithrium</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DV_Mithrium</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DV_Mithrium</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_ArtokMush>5</ISA_ArtokMush>
+		</products>
+	</RecipeDef>	
+</Defs>
