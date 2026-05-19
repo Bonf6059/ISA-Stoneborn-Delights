@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
+		<defName>ISA_MushInArtok</defName>
+		<thingDef>ISA_Artok</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_ArtokMush</li>
+			</thingDefs>
+		</ingredientFilter>
+		<efficiency>2</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
+	</ProcessorFramework.ProcessDef>
+		
+</Defs>
