@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Add Artok to BrewKettle -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_BrewKettle"]/comps/li[3]/processes</xpath>
+		<value>
+			<li>ISA_MushInArtok</li>
+		</value>
+	</Operation>
+	
+</Patch>
