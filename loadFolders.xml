@@ -12,6 +12,7 @@
 		<li IfModActive="det.epochspyrinth">1.6/Mods/EpochsPyrinth</li>
 		<li IfModActive="det.sbdelights">1.6/Mods/StonebornDelights</li>
 		<li IfModActive="det.sbcuisine">1.6/Mods/StonebornCuisine</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 
 		<!-- IfModActiveAll -->
 		<li IfModActiveAll="det.sbcuisine,ISA.hornetkeeping">1.6/Mods/StonebornCuisine/ISA_HornetKeeping</li>
