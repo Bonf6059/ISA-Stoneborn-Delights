@@ -5,8 +5,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Ideas for possible next updates
 
-- Do something with the weapon textures in the folder
-- Recuperare da stoneborn factions expansion: CrystalCrown; FireproofGambeson; forse Goggles e Razorbug
+- Implementare meglio StonebornFactionExpansion e StonebornCuisine
 
 # Old updates
 
