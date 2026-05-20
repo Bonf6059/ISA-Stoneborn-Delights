@@ -15,7 +15,8 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Added Mineral trader in case ISA_RandomPatches isn't installed
 - Updated minerals trader stock and fixed for better compatibility
 - Added Stoneborn cuisine animals to mineral trader stock, they will buy and sell them
-- Muffton from "DarkAges - Beasts and Monsters" are additionally recognized as stoneborn animals for trading purposes 
+- Muffton from "DarkAges - Beasts and Monsters" are additionally recognized as stoneborn animals for trading purposes
+- Fungal gravel is accessible to everyone
 
 13/05/2026
 - Added support for StonebornCuisine
