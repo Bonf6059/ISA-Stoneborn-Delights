@@ -9,6 +9,9 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+19/08/2026
+- Updated HiveMead texture
+
 14/05/2026
 - Reorganized code
 - Reduced research points needed for StonebornCuisine
