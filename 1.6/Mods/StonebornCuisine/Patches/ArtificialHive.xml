@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Add a counter to Artificial Hive to see how much time is left before it produces more jelly  -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SC_ArtificialHive"]/comps/li[3]</xpath>
+		<value>
+      <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		</value>
+	</Operation>
+
+</Patch>
