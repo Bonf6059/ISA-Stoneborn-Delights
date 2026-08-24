@@ -9,6 +9,9 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+24/08/2026
+- Removed royal column
+
 19/08/2026
 - Updated HiveMead texture
 
