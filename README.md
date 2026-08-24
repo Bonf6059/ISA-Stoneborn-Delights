@@ -11,6 +11,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 24/08/2026
 - Removed royal column
+- Flours from Stoneborn Cuisine and ISA_Medieval are interchangeable
 
 19/08/2026
 - Updated HiveMead texture
