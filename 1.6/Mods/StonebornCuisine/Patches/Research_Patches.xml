@@ -20,28 +20,28 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_BasicBaking"]/baseCost</xpath>
 		  <value>
-			  <baseCost>1000</baseCost>
+			  <baseCost>800</baseCost>
 		  </value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_BasicDough"]/baseCost</xpath>
 		  <value>
-			  <baseCost>800</baseCost>
+			  <baseCost>600</baseCost>
 		  </value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_SalamiAndCheese"]/baseCost</xpath>
 		  <value>
-			  <baseCost>1200</baseCost>
+			  <baseCost>1000</baseCost>
 		  </value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_PastryArts"]/baseCost</xpath>
 		  <value>
-			  <baseCost>1500</baseCost>
+			  <baseCost>1200</baseCost>
 		  </value>
 	</Operation>
 
@@ -55,7 +55,7 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_Grilling"]/baseCost</xpath>
 		  <value>
-			  <baseCost>800</baseCost>
+			  <baseCost>700</baseCost>
 		  </value>
 	</Operation>
-</Patch>	
+</Patch>
