@@ -75,6 +75,16 @@
         		<thingDef>Meat_Megaspider</thingDef>
         		<countRange>30~141</countRange>
       		</li>
+
+			<li Class="StockGenerator_SingleDef">
+            	<thingDef>SD_MinersDelight</thingDef>
+           		<countRange>5~35</countRange>
+          	</li>
+
+          	<li Class="StockGenerator_SingleDef">
+            	<thingDef>SD_Glimmerquartz</thingDef>
+            	<countRange>5~35</countRange>
+          	</li>
             			
 			<!-- Buy -->
 			<li Class="StockGenerator_BuyExpensiveSimple" />
