@@ -15,22 +15,22 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBread"]/ingredients/li[1]/filter</xpath>
 		<value>
-      <filter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </filter>
+      		<filter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+      		</filter>
 		</value>
 	</Operation>
 
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBread"]/fixedIngredientFilter</xpath>
 		<value>
-      <fixedIngredientFilter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </fixedIngredientFilter>
+      		<fixedIngredientFilter>
+			  	<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+      		</fixedIngredientFilter>
 		</value>
 	</Operation>
 
@@ -39,25 +39,25 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBerryPie"]/ingredients/li[1]/filter</xpath>
 		<value>
-      <filter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </filter>
+      		<filter>
+				<categories>
+         			<li>SC_FlourRaw</li>
+        		</categories>
+      		</filter>
 		</value>
 	</Operation>
 
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBerryPie"]/fixedIngredientFilter</xpath>
 		<value>
-      <fixedIngredientFilter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-        <thingDefs>
-				  <li>RawBerries</li>
-			  </thingDefs>
-      </fixedIngredientFilter>
+      		<fixedIngredientFilter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+        		<thingDefs>
+					<li>RawBerries</li>
+			  	</thingDefs>
+      		</fixedIngredientFilter>
 		</value>
 	</Operation>
 
@@ -66,25 +66,25 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeApplePie"]/ingredients/li[1]/filter</xpath>
 		<value>
-      <filter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </filter>
+      		<filter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+      		</filter>
 		</value>
 	</Operation>
 
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeApplePie"]/fixedIngredientFilter</xpath>
 		<value>
-      <fixedIngredientFilter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-        <thingDefs>
-				  <li>ISA_RawApples</li>
-			  </thingDefs>
-      </fixedIngredientFilter>
+      		<fixedIngredientFilter>
+			  	<categories>
+         			<li>SC_FlourRaw</li>
+        		</categories>
+        		<thingDefs>
+					<li>ISA_RawApples</li>
+				</thingDefs>
+      		</fixedIngredientFilter>
 		</value>
 	</Operation>
 
@@ -93,25 +93,25 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakePumpkinPie"]/ingredients/li[1]/filter</xpath>
 		<value>
-      <filter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </filter>
+      		<filter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+      		</filter>
 		</value>
 	</Operation>
 
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakePumpkinPie"]/fixedIngredientFilter</xpath>
 		<value>
-      <fixedIngredientFilter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-        <thingDefs>
-				  <li>ISA_RawPumpkins</li>
-			  </thingDefs>
-      </fixedIngredientFilter>
+      		<fixedIngredientFilter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+        		<thingDefs>
+					<li>ISA_RawPumpkins</li>
+			  	</thingDefs>
+      		</fixedIngredientFilter>
 		</value>
 	</Operation>
 
@@ -120,25 +120,25 @@
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeCarrotCake"]/ingredients/li[1]/filter</xpath>
 		<value>
-      <filter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-      </filter>
+      		<filter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+      		</filter>
 		</value>
 	</Operation>
 
   <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeCarrotCake"]/fixedIngredientFilter</xpath>
 		<value>
-      <fixedIngredientFilter>
-			  <categories>
-          <li>SC_FlourRaw</li>
-        </categories>
-        <thingDefs>
-				  <li>ISA_RawCarrots</li>
-			  </thingDefs>
-      </fixedIngredientFilter>
+      		<fixedIngredientFilter>
+				<categories>
+          			<li>SC_FlourRaw</li>
+        		</categories>
+        		<thingDefs>
+					<li>ISA_RawCarrots</li>
+			  	</thingDefs>
+      		</fixedIngredientFilter>
 		</value>
 	</Operation>
   
