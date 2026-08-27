@@ -6,13 +6,13 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Ideas for possible next updates
 
 - Implementare meglio StonebornFactionExpansion e StonebornCuisine
-- Add compat to the flour of stoneborn cuisine for honey rolls from ISA_HornetKeeping
 
 # Old updates
 
 24/08/2026
 - Removed royal column
 - Flours from Stoneborn Cuisine and ISA_Medieval are interchangeable
+- Added compatibility to the flour of stoneborn cuisine for honey rolls from ISA_HornetKeeping
 
 19/08/2026
 - Updated HiveMead texture
