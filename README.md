@@ -9,6 +9,9 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+14/10/2026
+- Added 1.7 support
+
 24/08/2026
 - Removed royal column
 - Flours from Stoneborn Cuisine and ISA_Medieval are interchangeable
