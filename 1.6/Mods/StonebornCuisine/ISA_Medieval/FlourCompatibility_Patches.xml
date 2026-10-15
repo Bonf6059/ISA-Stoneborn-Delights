@@ -17,6 +17,22 @@
 		</value>
 	</Operation>
 
+<!-- Change wheat output -->
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Wheat"]/descriptionHyperlinks/ThingDef[1]</xpath>
+		<value>
+      		<ThingDef>SC_Flour</ThingDef>
+		</value>
+	</Operation>
+	
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Wheat"]/‎plant/harvestedThingDef</xpath>
+		<value>
+      		<harvestedThingDef>SC_Flour</harvestedThingDef>
+		</value>
+	</Operation>
+
 <!-- Bread -->
   
   <Operation Class="PatchOperationReplace">
