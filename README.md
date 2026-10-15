@@ -11,6 +11,11 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 14/10/2026
 - Added 1.7 support
+- Deepened flour compatibility between StonebornCuisine and ISA-Medieval
+
+          - Changed SC flour name from fungal flour to flour
+          - Changed SC flour description to be more generic
+          - ISA-Medieval's wheat produces SC flour
 
 24/08/2026
 - Removed royal column
