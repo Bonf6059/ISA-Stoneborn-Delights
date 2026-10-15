@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>  
 
-<!-- Flour -->
+<!-- Flour name and description -->
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ISA_Flour"]/thingCategories</xpath>
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SC_Flour"]/label</xpath>
 		<value>
-			<li>SC_FlourRaw</li>
+      		<label>flour</label>
+		</value>
+	</Operation>
+	
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SC_Flour"]/description</xpath>
+		<value>
+      		<description>Powdery and dense flour. Used for baking recipes.</description>
 		</value>
 	</Operation>
 
