@@ -48,7 +48,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="SC_FeastGalore"]/baseCost</xpath>
 		  <value>
-			  <baseCost>1500</baseCost>
+			  <baseCost>1200</baseCost>
 		  </value>
 	</Operation>
 
