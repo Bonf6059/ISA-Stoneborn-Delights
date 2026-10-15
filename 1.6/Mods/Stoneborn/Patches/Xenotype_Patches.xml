@@ -14,9 +14,9 @@
 		<xpath>/Defs/XenotypeDef[defName="Stoneborn"]/genes/li[text()="AptitudeTerrible_Social"]</xpath>
 	</Operation>
 
-    <Operation Class="PatchOperationRemove">
+    <!--	<Operation Class="PatchOperationRemove">
 		<xpath>/Defs/XenotypeDef[defName="Stoneborn"]/genes/li[text()="Beard_Always"]</xpath>
-	</Operation>
+	</Operation>	-->
 
     <!--	<Operation Class="PatchOperationRemove">
 		<xpath>/Defs/XenotypeDef[defName="Stoneborn"]/genes/li[text()="DV_Stonecall"]</xpath>
