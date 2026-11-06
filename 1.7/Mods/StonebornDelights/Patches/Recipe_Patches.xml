@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SD_BeardWax"]/costList</xpath>
+		  <value>
+	    	<costList>
+          		<SD_RawStoutcap>20</SD_RawStoutcap>
+          		<Steel>4</Steel>
+        	</costList>
+		  </value>
+	</Operation>
+
+	<!-- Add Nutrishine Fermenting Barrel -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BarrelProcessor"]/comps/li[1]/processes</xpath>
+		<value>
+			<li>ISA_NutriShineBrewing</li>
+		</value>
+	</Operation>
+	
+</Patch>

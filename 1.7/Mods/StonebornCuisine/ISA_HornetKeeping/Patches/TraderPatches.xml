@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+      
+ <!--========== APICULTURAL TRADERS ==========-->
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Apiculture"]/stockGenerators</xpath>
+        <value>
+
+         <li Class="StockGenerator_SingleDef">
+            <thingDef>SC_ArtificialHive</thingDef>
+            <countRange>-5~3</countRange>
+          </li>
+
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>SC_JuvenileQueen</thingDef>
+            <countRange>-5~3</countRange>
+          </li>
+
+        </value>
+      </Operation>
+
+</Patch>

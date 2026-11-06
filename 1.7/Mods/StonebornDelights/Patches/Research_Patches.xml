@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+<!-- Change TechLevel -->
+	
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SD_ProcessedDrugs"]/techLevel</xpath>
+		  <value>
+			  <techLevel>Medieval</techLevel>
+		  </value>
+	</Operation>
+
+<!-- Change amount of research needed -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/baseCost</xpath>
+		  <value>
+			  <baseCost>600</baseCost>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SD_DwarvenBrewing"]/baseCost</xpath>
+		  <value>
+			  <baseCost>1000</baseCost>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SD_ProcessedDrugs"]/baseCost</xpath>
+		  <value>
+			  <baseCost>800</baseCost>
+		  </value>
+	</Operation>
+
+</Patch>	

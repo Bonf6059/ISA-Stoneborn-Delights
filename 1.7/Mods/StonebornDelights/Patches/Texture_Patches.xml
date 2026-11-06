@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Replace HiveMead Texture -->
+	
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="SD_HiveMead"]/graphicData/texPath</xpath>
+    <value>
+    	<texPath>Things/Items/Drugs/HiveMead</texPath>
+    </value>
+  </Operation>
+	
+</Patch>

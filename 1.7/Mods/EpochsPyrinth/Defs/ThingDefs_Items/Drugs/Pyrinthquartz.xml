@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef MayRequire="det.epochspyrinth" ParentName="DrugBase">
+        <defName>ISA_Pyrinthquartz</defName>
+        <label>pyrinthquartz</label>
+        <description>A small crystal of pyrinth, cut from a chunk to a more edible size. The chemical makeup of pyrinth makes it a an easy way to stay warm even in the coldest weather that gives anyone who consumes it an feeling of warmth, so much so that some people like to undress when taking it. It is also a very pleasant spice, making it useful for certain stoneborn recipes. Entire stoneborn mining operations are dedicated to extracting these spicy crystals for consumption and processing.</description>
+        <descriptionHyperlinks>
+          <HediffDef>ISA_PyrinthHigh</HediffDef>
+       <!--   <HediffDef>ISA_PyrinthAddiction</HediffDef>  -->
+        </descriptionHyperlinks>
+        <graphicData>
+          <texPath>Things/Items/Drugs/Pyrinthquartz</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <statBases>
+          <MarketValue>10</MarketValue>
+          <Mass>0.1</Mass>
+        </statBases>
+        <deepCommonality>0.6</deepCommonality>
+        <deepCountPerPortion>8</deepCountPerPortion>
+        <deepLumpSizeRange>4~6</deepLumpSizeRange>
+        <techLevel>Medieval</techLevel>
+        <ingestible>
+          <joyKind>Chemical</joyKind>
+          <joy>0.70</joy>
+          <drugCategory>Hard</drugCategory>
+          <foodType>Processed</foodType>
+          <baseIngestTicks>80</baseIngestTicks>
+          <ingestSound>Meal_Eat</ingestSound>
+          <ingestHoldOffsetStanding>
+            <northDefault>
+              <offset>(0.18,0,0)</offset>
+            </northDefault>
+          </ingestHoldOffsetStanding>
+          <ingestCommandString>Chumble {0}</ingestCommandString>
+          <ingestReportString>Chumbling {0}.</ingestReportString>
+          <useEatingSpeedStat>false</useEatingSpeedStat>
+          <chairSearchRadius>0</chairSearchRadius>
+          <outcomeDoers>
+            <li Class="IngestionOutcomeDoer_GiveHediff">
+              <hediffDef>ISA_PyrinthHigh</hediffDef>
+              <severity>1.0</severity>
+       <!--       <toleranceChemical>ISA_Pyrinth</toleranceChemical>    -->              <!-- Sono disattivati perchè questa non crea dipendenza -->
+            </li>
+     <!--       <li Class="IngestionOutcomeDoer_OffsetNeed">
+              <need>Food</need>
+              <offset>0.2</offset>
+              <toleranceChemical>ISA_Pyrinth</toleranceChemical>
+            </li>    -->
+          </outcomeDoers>
+          </ingestible>
+        <comps>
+          <li Class="CompProperties_Drug">
+        <!--    <chemical>ISA_Pyrinth</chemical>
+            <addictiveness>0.025</addictiveness>
+            <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+            <needLevelOffset>0.9</needLevelOffset>
+            <isCombatEnhancingDrug>false</isCombatEnhancingDrug>    -->
+            <listOrder>200</listOrder>
+            <overdoseSeverityOffset>0.09~0.25</overdoseSeverityOffset>
+      <!--      <largeOverdoseChance>0.002</largeOverdoseChance>    -->
+          </li>
+        </comps>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+      </ThingDef>
+  
+</Defs>

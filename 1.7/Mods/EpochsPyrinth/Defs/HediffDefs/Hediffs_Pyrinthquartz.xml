@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <HediffDef MayRequire="det.epochspyrinth">
+        <defName>ISA_PyrinthHigh</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>pyrinth rush</label>
+        <labelNoun>a pyrinth high</labelNoun>
+        <description>pyrinthquartz in the bloodstream. It increases the comfortable temperature.</description>
+        <defaultLabelColor>(1,1,0.6)</defaultLabelColor>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+          <li Class="HediffCompProperties_Effecter">
+            <stateEffecter>DV_PyrinthSparkingEffectSmall</stateEffecter>
+            <severityIndices>0~1</severityIndices>
+          </li>
+          <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>-2</severityPerDay>
+            <showHoursToRecover>true</showHoursToRecover>
+          </li>
+        </comps>
+          <stages>
+            <li>
+                  <statOffsets>
+                        <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+                  </statOffsets>		
+            </li>
+          </stages>
+      </HediffDef>
+      
+      <ThoughtDef MayRequire="det.epochspyrinth">
+        <defName>ISA_PyrinthHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>ISA_PyrinthHigh</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+          <li>
+            <label>Pyrinth rush</label>
+            <description>Spicy!</description>
+            <baseMoodEffect>3</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+  
+</Defs>

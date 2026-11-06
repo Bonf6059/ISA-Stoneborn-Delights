@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!--========== MINERAL TRADERS ==========-->
+      <!-- Addons to the stock generator  -->
+
+      <Operation Class="PatchOperationAdd">
+            <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
+            <value>    
+
+            <!-- Selling -->
+                  <li Class="StockGenerator_Animals">
+                        <maxWildness>1</maxWildness>
+                        <tradeTagsSell>
+                              <li>AnimalStoneborn</li>
+                        </tradeTagsSell>
+                        <kindCountRange>1~2</kindCountRange>
+                        <countRange>3~4</countRange>
+                        <createMatingPair>
+                              <li>AnimalStoneborn</li>
+                        </createMatingPair>
+                  </li>
+
+            <!-- Buying -->
+                  <li Class="StockGenerator_Animals">
+      	            <tradeTagsBuy>
+                              <li>AnimalStoneborn</li>
+                        </tradeTagsBuy>
+                  </li>
+            </value>
+      </Operation>
+
+</Patch>

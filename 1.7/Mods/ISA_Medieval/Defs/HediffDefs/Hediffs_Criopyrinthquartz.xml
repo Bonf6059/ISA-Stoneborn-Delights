@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <HediffDef MayRequire="ISA.Medieval">
+        <defName>ISA_CriopyrinthHigh</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>criopyrinth rush</label>
+        <labelNoun>a criopyrinth high</labelNoun>
+        <description>criopyrinthquartz in the bloodstream. It increases the comfortable temperature.</description>
+        <defaultLabelColor>(0.6,1,1)</defaultLabelColor>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+          <li Class="HediffCompProperties_Effecter">
+            <stateEffecter>ISA_CriopyrinthSparkingEffectSmall</stateEffecter>
+            <severityIndices>0~1</severityIndices>
+          </li>
+          <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>-2</severityPerDay>
+            <showHoursToRecover>true</showHoursToRecover>
+          </li>
+        </comps>
+          <stages>
+            <li>
+                  <statOffsets>
+                        <ComfyTemperatureMax>20</ComfyTemperatureMax>
+                  </statOffsets>		
+            </li>
+          </stages>
+      </HediffDef>
+      
+      <ThoughtDef MayRequire="ISA.Medieval">
+        <defName>ISA_CriopyrinthHighThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>ISA_CriopyrinthHigh</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+          <li>
+            <label>Criopyrinth rush</label>
+            <description>Thats so cooool!</description>
+            <baseMoodEffect>3</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+  
+</Defs>

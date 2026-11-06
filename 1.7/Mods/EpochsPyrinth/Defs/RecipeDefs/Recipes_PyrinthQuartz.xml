@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <RecipeDef MayRequire="det.epochspyrinth">
+        <defName>Make_PyrinthCrystals</defName>
+        <label>cut up pyrinth shards</label>
+        <description>Cuts pyrinth shards into bite-size pieces.</description>
+        <recipeUsers>
+          	<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
+			<li>DrugLab</li>
+			<li>CraftingSpot</li>
+			<li>TableStonecutter</li>
+        </recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>DV_Pyrinth</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>DV_Pyrinth</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <ISA_Pyrinthquartz>5</ISA_Pyrinthquartz>
+        </products>
+      </RecipeDef>
+
+</Defs>

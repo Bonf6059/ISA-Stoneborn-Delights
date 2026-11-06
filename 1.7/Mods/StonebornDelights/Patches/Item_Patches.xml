@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+  
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SD_BeardWax" or defName="SD_Redspice" or defName="SD_RawShatterbrew" or defName="SD_FermentedShatterbrew" or defName="SD_RageElixir" or defName="SD_MinersDelight" or defName="SD_Glimmerquartz"]/techLevel</xpath>
+		  <value>
+			  <techLevel>Medieval</techLevel>
+		  </value>
+	</Operation>
+
+</Patch>
