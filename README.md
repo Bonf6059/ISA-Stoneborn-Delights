@@ -13,6 +13,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Fixed flour patches for 1.6 and 1.7
 - Added ISA_Cryopirinth to the list of diggable minerals of molemutt
 - Added cuisine trade caravan
+- Added new plants to the herbpot
 
 14/10/2026
 - Added 1.7 support
