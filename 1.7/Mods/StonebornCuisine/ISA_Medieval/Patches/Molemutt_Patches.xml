@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>  
+
+<!-- Add a new mineral to the diggable list of SC_Molemutt -->
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SC_Molemutt"]/comps/customThingToDig</xpath>
+		<value>
+      		<li>ISA_Criopyrinth</li>
+		</value>
+	</Operation>
+	
+</Patch>
