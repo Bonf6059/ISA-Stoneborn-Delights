@@ -9,6 +9,11 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+06/11/2026
+- Fixed flour patches for 1.6 and 1.7
+- Added ISA_Cryopirinth to the list of diggable minerals of molemutt
+- Added cuisine trade caravan
+
 14/10/2026
 - Added 1.7 support
 - Deepened flour compatibility between StonebornCuisine and ISA-Medieval
