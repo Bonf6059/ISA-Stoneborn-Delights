@@ -9,11 +9,5 @@
       		<li>ISA_Criopyrinth</li>
 		</value>
 	</Operation>
-<!-- PATCH TEMPORANEA PER TEST, DA ELIMINARE -->
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="SC_Molemutt"]/comps/li[1]/ticksToDig</xpath>
-		<value>
-      		<ticksToDig>60</ticksToDig>
-		</value>
-	</Operation>
+	
 </Patch>
