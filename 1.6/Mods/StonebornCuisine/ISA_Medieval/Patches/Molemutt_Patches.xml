@@ -4,10 +4,16 @@
 <!-- Add a new mineral to the diggable list of SC_Molemutt -->
 
   <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SC_Molemutt"]/comps/customThingToDig</xpath>
+		<xpath>Defs/ThingDef[defName="SC_Molemutt"]/comps/li[1]/customThingToDig</xpath>
 		<value>
       		<li>ISA_Criopyrinth</li>
 		</value>
 	</Operation>
-	
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SC_Molemutt"]/comps/li[1]/ticksToDig‎</xpath>
+		<value>
+      		<ticksToDig>60</ticksToDig>
+		</value>
+	</Operation>
 </Patch>
