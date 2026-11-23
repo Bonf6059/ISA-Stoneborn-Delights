@@ -57,9 +57,11 @@
 		</value>
 	</Operation>
 
+<!-- SOLO IN PREDISPOSIZIONE, QUESTI ITEM SONO DISATTIVATI SE C'è STONEBORNCUISINE ATTIVO (GUARDA LOADFOLDER IN ISA.MEDIEVAL)-->
+	
   <!-- Berry Pie -->
   
-  <Operation Class="PatchOperationReplace">
+  <!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBerryPie"]/ingredients/li[1]/filter</xpath>
 		<value>
       		<filter>
@@ -82,11 +84,11 @@
 			  	</thingDefs>
       		</fixedIngredientFilter>
 		</value>
-	</Operation>
+	</Operation>-->
 
     <!-- Apple Pie -->
   
-  <Operation Class="PatchOperationReplace">
+  <!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeApplePie"]/ingredients/li[1]/filter</xpath>
 		<value>
       		<filter>
@@ -109,11 +111,11 @@
 				</thingDefs>
       		</fixedIngredientFilter>
 		</value>
-	</Operation>
+	</Operation>-->
 
     <!-- Pumpkin Pie -->
   
-  <Operation Class="PatchOperationReplace">
+  <!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakePumpkinPie"]/ingredients/li[1]/filter</xpath>
 		<value>
       		<filter>
@@ -136,11 +138,11 @@
 			  	</thingDefs>
       		</fixedIngredientFilter>
 		</value>
-	</Operation>
+	</Operation>-->
 
     <!-- Carrot Cake -->
   
-  <Operation Class="PatchOperationReplace">
+  <!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeCarrotCake"]/ingredients/li[1]/filter</xpath>
 		<value>
       		<filter>
@@ -163,6 +165,6 @@
 			  	</thingDefs>
       		</fixedIngredientFilter>
 		</value>
-	</Operation>
+	</Operation>-->
   
 </Patch>
