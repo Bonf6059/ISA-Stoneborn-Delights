@@ -27,7 +27,7 @@
 	</Operation>
 	
   <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="ISA_Plant_Wheat"]/‎plant/harvestedThingDef</xpath>
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Wheat"]/plant/harvestedThingDef</xpath>
 		<value>
       		<harvestedThingDef>SC_Flour</harvestedThingDef>
 		</value>
