@@ -14,6 +14,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Added ISA_Cryopirinth to the list of diggable minerals of molemutt
 - Added cuisine trade caravan
 - Added new plants to the herbpot
+- Partially disabled flour patches for ISA.Medieval and STONEBORNCUISINE because it was patching cakes that are disabled in ISA.Medieval when STONEBORNCUISINE is active
 
 14/10/2026
 - Added 1.7 support
