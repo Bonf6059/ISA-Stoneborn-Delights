@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>  
+
+<!-- Add new plants to the herbpot -->
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Mindwort"]/plant/sowTags</xpath>
+		<value>
+      		<li>Herbal</li>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Poppy"]/plant/sowTags</xpath>
+		<value>
+      		<li>Herbal</li>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Herb"]/plant/sowTags</xpath>
+		<value>
+      		<li>Herbal</li>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_Plant_Sagewick"]/plant/sowTags</xpath>
+		<value>
+      		<li>Herbal</li>
+		</value>
+	</Operation>
+	
+</Patch>
