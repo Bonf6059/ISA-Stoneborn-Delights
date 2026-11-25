@@ -33,9 +33,11 @@
 		</value>
 	</Operation>
 
+<!-- SOLO IN PREDISPOSIZIONE, QUESTI ITEM SONO DISATTIVATI SE C'è STONEBORNCUISINE ATTIVO (GUARDA LOADFOLDER IN ISA.MEDIEVAL)-->
+	
 <!-- Bread -->
   
-  <Operation Class="PatchOperationReplace">
+<!--  <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="ISA_MakeBread"]/ingredients/li[1]/filter</xpath>
 		<value>
       		<filter>
@@ -55,9 +57,7 @@
         		</categories>
       		</fixedIngredientFilter>
 		</value>
-	</Operation>
-
-<!-- SOLO IN PREDISPOSIZIONE, QUESTI ITEM SONO DISATTIVATI SE C'è STONEBORNCUISINE ATTIVO (GUARDA LOADFOLDER IN ISA.MEDIEVAL)-->
+	</Operation> -->
 	
   <!-- Berry Pie -->
   
